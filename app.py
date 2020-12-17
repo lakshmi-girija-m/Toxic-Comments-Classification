@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template
 import pickle
 import re
-import contractions
 
 app = Flask(__name__)
 
@@ -15,7 +14,7 @@ def text_preprocess(sent):
         if len(word)>20:
             continue
         else:
-            expanded_words.append(contractions.fix(word))
+            expanded_words.append(word)
     sent = ' '.join(expanded_words) 
     
     # remove html tags
