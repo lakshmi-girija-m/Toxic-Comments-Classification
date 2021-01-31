@@ -8,6 +8,13 @@ This project is about predicting the probability that a given comment is toxic. 
 ### Text pre processing and Machine Learning: <h3>
 The pre processing step of comments include removing URLs, digits, hyper links, html tags, links to image, emails, expanding contactions and removing words whose length is greater than 15. Later stemming and lemmatization was performed on tokenized comments. To convert the comments in text form into vectors, Tf-Idf Vectorizor was used with unigram feature. The dataset was divided into 70% training set and 30% test set. Various classification algorithms like Logistic Regression, XGBoost, RandomForest and NaiveBayes were used for predicting the probability of comment belonging to a particular class. Each algorithm was trained for 6 different classes. The performance of the algorithms was measure based on the F1 score. Logistic Regression with parameters n_jobs=-1 and class_weight='balanced' performed well.
   
+| Algorithm      | Parameters     |
+| ------------- |:-------------:| 
+| XGBoost | n_estimators=150, n_jobs=-1 | 
+| Logistic Regression      | n_jobs=-1, class_weight='balanced'   | 
+| Random Forest | max_depth=None, n_estimators=70     |
+| MultinomialNB | --- |
+  
 ### Deployment: <h3>
 The application was deployed on Heroku. Input for this application is a comment and output is the probability of the given comment belonging to each class. 
 
