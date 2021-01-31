@@ -2,6 +2,7 @@
 
 ### About the Project: <h3>
 Internet is a platform to write your opinions and the threat of abuse over the internet has increased over the years. This has stopped many people from voicing out their opinions and have a conversation over the internet. The Conversation AI team, a research initiative founded by Jigsaw and Google are working on tools to help improve online conversation. 
+  
 This project is about predicting the probability that a given comment is toxic. The dataset used for this project contains comment which belongs to any of the 6 classes - 'toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate'. This is a __multi-label classification__ problem. The difference between multi class and multi label classification problem is that, in multi class there can be more than 2 classes but the sample data can belong to only one of the class. In case of multi label classification, the sample data can be classified into more than one classes.
 
 ### Text pre processing and Machine Learning: <h3>
