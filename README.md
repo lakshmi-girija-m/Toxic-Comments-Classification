@@ -21,7 +21,7 @@ The application was deployed on Heroku. Input for this application is a comment 
 Link to Deployed Application : https://toxic-commentclassifier.herokuapp.com/
 
 <div align="center">
-  <img src="/Images/1.jpg" height="270" width="550"><img src="/Images/2.jpg" height="270" width="550">
+  <img src="/Images/1.png" height="200" width="600"><img src="/Images/2.png" height="200" width="600">
 </div>
 
 ### Installing required librarires: <h3>
